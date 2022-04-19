@@ -1,0 +1,133 @@
+.Item-Div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: white;
+  display: block;
+}
+
+.Item-Picture {
+  width: 100%;
+  min-height: 150px;
+  background-color: #cccccc;
+}
+
+.Grid {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.Item-Details {
+  height: 22%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Item-Price {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 5px;
+}
+
+.Item-Details-Price, .Item-Details-ReleaseDate {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.Item-Details-Sizes {
+  padding-left: 16px;
+  padding-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-weight: 500
+}
+
+.Item-Wrapper {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.Item-Name {
+  text-align: center;
+  color: #6d6d6d;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.714285714285714;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.Item-Desc {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 1.714285714285714;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  letter-spacing: .5px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.Item-ReleaseDate {
+  color: #000000;
+  padding-top: 3px;
+  margin-block-start: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.Shopping-Cart-Icon {
+  margin-right: 10px;
+}
+
+.Cart-Link {
+  color: white;
+  text-decoration: none
+}
+
+.Cart-Div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Cart-Item-Name {
+  color: #6d6d6d;
+  font-size: 16px;
+  margin: 0
+}
+
+.Cart-Item-Desc {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0
+}
+
+.Cart-Item-Size {
+  font-size: 13px;
+  color: grey;
+  margin: 0
+}
